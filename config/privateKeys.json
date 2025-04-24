@@ -1,0 +1,8 @@
+{
+  "keys": [
+    {
+      "prayerPrivateKey": "privatekey with gas",
+      "delegateeAddresses": ["wallet1", "wallet2"]
+    }
+  ]
+}
