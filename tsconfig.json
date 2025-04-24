@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "typeRoots": ["./src/utils/interface"]
+  },
+  "include": [
+    "src/**/*",
+    "src/**/*.ts",
+    "game",
+    "utils/roninCaptcha/your_script.py",
+    "utils/roninCaptcha/img/**/*",
+    "utils/roninCaptcha/__pycache__/**/*"
+  ],
+  "exclude": ["node_modules"]
+}
